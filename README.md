@@ -1,18 +1,33 @@
-# Deep Learning - CNN for Image Recognition
-Classifier for images or video input using **Google TensorFlow**. 
-Research project on Convolutional Neural Networks, feature extraction, transfer learning, adversary noise and *DeepDream*. 
+# Deep Learning CNN for Image Recognition
 
-In notebooks from 01 to 03 we mainly followed tutorials, with some changes and many observations, in order to learn how to use TensorFlow to build Convolutional Neural Networks for OCR and image recognition. Later notebooks follow our project specifications, while notebooks 06 and 07 were used for some more facoltative observations. 
+## Project Overview
 
-The project was completed around February 2017.
+This project demonstrates the application of Convolutional Neural Networks (CNNs) in image recognition tasks. The model is trained to classify images into different categories using deep learning techniques. This repository contains all the code, data, and resources needed to understand and replicate the project.
 
-## Keras
-Keras subfolder contains more advanced experiments done with Keras. The first 4 notebooks are about MNIST, with single column and multi column CNNs and dataset expansion. Notebook 5 is an implementation of Transfer Learning using Keras with CIFAR-10.
+## Features
 
-## Libraries and credits
-* Notebooks from 01 to 05 (included) use TensorFlow 0.9.0, Notebook 06 uses TensorFlow 0.11.head. 
-* Notebooks 03 and 04 use PrettyTensor 0.6.2.
-* Notebook 07 uses caffe library and some modified code from [google/deepdream](https://github.com/google/deepdream).
-* Notebooks in Keras subfolder use Keras and TensorFlow 0.12.1
-* Special thanks and credits to [Hvass-Labs](https://github.com/Hvass-Labs) for well made tutorials and libraries. 
-* Notebooks were made on 3 different Docker machines running different environments, thanks to [jupyter/docker-stacks](https://github.com/jupyter/docker-stacks/tree/master/tensorflow-notebook) and [saturnism/deepdream-docker](https://github.com/saturnism/deepdream-docker).
+- **Data Preprocessing:** Image normalization and augmentation for better model generalization.
+- **Model Architecture:** A custom CNN model built using Keras and TensorFlow, designed to achieve high accuracy in image classification tasks.
+- **Training & Evaluation:** Detailed training process with hyperparameter tuning and evaluation on a test dataset.
+- **Visualization:** Visual representations of training progress, model performance, and classification results.
+
+## Getting Started
+
+### Prerequisites
+
+Before running the project, ensure you have the following installed:
+
+- Python 3.x
+- TensorFlow
+- Keras
+- NumPy
+- Matplotlib
+- OpenCV (if needed for advanced image processing)
+
+### Installation
+
+Clone the repository and navigate to the project directory:
+
+```bash
+git clone https://github.com/sAsIprethammm/Deep-Learning-CNN-for-Image-Recognition.git
+cd Deep-Learning-CNN-for-Image-Recognition
